@@ -10,11 +10,12 @@ Presale: **0%** fees. Post-listing policy target: **~1% total**, with a **public
 *(The smart contract enforces a hard cap of **≤ 25%** across all fees.)*
 
 ## Links
-- **Whitepaper (PDF):** [./docs/Albubux_Whitepaper.pdf](./docs/Albubux_Whitepaper.pdf)
-- **Investor README (PDF):** [./docs/Albubux_README.pdf](./docs/Albubux_README.pdf)
-- **BscScan:** https://bscscan.com/address/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
-- **PinkSale:** (insert live link)
-- **Website / Socials:** (insert links)
+- **Whitepaper:** ./whitepaper/Albubux_Whitepaper.md
+- **Investor README:** ./whitepaper/Albubux_README.md
+- **BscScan (contract):** 0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
+
+- **PinkSale:** https://www.pinksale.finance/launchpad/bsc/0x902ef0De221AdD21452Ee94750DCD8036EcD519e
+- **Website / Socials:** https://albubux.com
 
 ## Contract Highlights
 - Single uniform transfer-fee schedule (no separate buy/sell in code).
