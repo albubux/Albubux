@@ -1,0 +1,79 @@
+Albubux (BUBX) — Whitepaper
+Albubux (BUBX) — Whitepaper
+Network: BNB Smart Chain (BEP-20)
+Contract: 0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9 (see BscScan for deployment & verification)
+Name / Symbol / Decimals: Albubux / BUBX / 9
+Total Supply: As deployed on BscScan (“Read Contract”)
+1) Overview
+Albubux is a community-driven token designed for transparent tokenomics and practical utility
+(payments, charitable impact, partnerships). The smart contract is a LiquidityGeneratorToken with:
+• Reflection (“tax fee”) distributed to holders.
+• Automatic liquidity addition (swap-and-liquify). LP tokens are sent to 0xdead.
+• Optional charity fee forwarded to a configured charity address. If the charity address is 0x0,
+the charity fee must be 0.
+Presale/Fair-launch: fees configured at 0%.
+Post-listing policy: small total fee (initial target ~1%), with a public policy cap ≤ 5%.
+(The contract itself enforces a hard technical limit at 25% as a safety ceiling.)
+2) What the Code Enforces (On-chain Mechanics)
+• Single fee schedule for transfers. The contract does not encode separate buy/sell fees;
+one schedule applies unless an address is excluded from fees.
+• Fee components (basis points, i.e., parts per 10,000):
+– Tax Fee (_taxFee) → reflections to holders.
+– Liquidity Fee (_liquidityFee) → accumulated in the contract; when threshold is reached,
+half is swapped to BNB and paired with the other half to add liquidity; LP tokens are
+sent to 0xdead.
+– Charity Fee (_charityFee) → forwarded to _charityAddress; must be 0 if _charityAddress is 0x0.
+• Hard cap on total fees: tax + liquidity + charity ≤ 25% (enforced by require in constructor
+and setters).
+• Swap-and-Liquify threshold: initialized at ~0.1% of total supply; owner may adjust via
+setSwapBackSettings(amount), but not below 0.05% of total supply.
+• Exclusions & Ownership: owner can excludeFromFee, excludeFromReward / includeInReward.
+Ownable includes transferOwnership and renounceOwnership.
+• Router / Pair: router address is provided at deployment; the pair is created against WBNB.
+See BscScan “Read Contract” for live parameters.
+3) Tokenomics Policy
+Figures below are policy targets; on-chain code does not force allocations beyond fee mechanics.
+• Presale: 0% fees to ensure fair distribution.
+• After listing: enable a small total fee (~1%) to support liquidity/charity operations;
+public policy cap ≤ 5%.
+• No hidden taxes or mode switches; any change in fees requires an owner transaction and
+remains subject to the 25% hard cap.
+4) Utilities & Roadmap (Non-contractual, No Migration Needed)
+Utilities are designed without changing the base token contract. New features arrive via
+companion contracts or off-chain services.
+• Gaming / NFTs / Metaverse: micro-transactions, perk NFTs, events; SDK for indie partners,
+later mid-size studios.
+• E-commerce & Promo Codes: partner pilots with token-gated discounts; affiliate dashboards;
+later, selected payment acceptance where feasible.
+• Payments: selective merchant acceptance after compliance reviews; wallet UX bridges.
+Roadmap (high-level):
+• Post-Presale: DEX listing with locked LP; publish addresses/locks; launch community
+governance for charity targets.
+• H1–H2: pilots (promo codes), indie game SDK, first integrations, KPI reporting; expand utilities.
+• Ongoing: reduce fees as liquidity deepens (community signalling), publish quarterly
+transparency reports.
+(Brand names mentioned in outreach plans are targets, not signed partners, unless announced.)
+5) Governance & Transparency
+• Open reporting: regular updates of treasury flows, charity disbursements (with tx hashes),
+and fee settings.
+• Community input: token-weighted signalling/votes for charity destinations and optional
+fee reductions.
+• Security posture: audits/KYC (if commissioned) published; multi-sig for key wallets;
+incident playbook for companion modules.
+6) Risk & Compliance Notes
+• Crypto assets are volatile; nothing herein is financial advice.
+• Regional compliance varies; features may roll out by jurisdiction.
+• This document reflects what the deployed code does and project policy; for the exact live
+parameters (fees, thresholds, router, charity address), always refer to the BscScan contract page.
+7) Owner-Callable Functions (Reference)
+• setTaxFeePercent, setLiquidityFeePercent, setCharityFeePercent
+(sum must remain ≤ 25%; charity must be 0 if charity address is 0x0)
+• setSwapBackSettings(amount) (≥ 0.05% of total supply)
+• excludeFromFee(address), excludeFromReward(address), includeInReward(address)
+• transferOwnership(address), renounceOwnership()
+8) Links
+• BscScan: https://bscscan.com/address/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
+• PinkSale: (insert live launchpad URL)
+• Repository: https://github.com/albubux/albubux-token
+9) License
+MIT © Albubux Project Developers
