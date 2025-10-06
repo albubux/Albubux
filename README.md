@@ -1,3 +1,9 @@
+## Quantum-Secure (DEMO)
+
+- **Public PQ key:** `ALBUBUX_PQ_PUB_V1`
+- **Verifier:** https://albubux.github.io/albubux-verify/
+- **1-click verify (this announcement):** https://albubux.github.io/albubux-verify/?u=https%3A%2F%2Falbubux.github.io%2Falbubux-verify%2Fannouncement.json
+
 # Albubux (BUBX)
 
 **Chain:** BNB Smart Chain (BEP-20)  
