@@ -20,7 +20,7 @@ Presale: **0%** fees. Post-listing policy target: **~1% total**, with a **public
 - **Investor README:** ./whitepaper/Albubux_README.md
 - **BscScan (contract):** 0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
 - **Audit** https://blocksafu.com/certificate/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
-- **DxSale** https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=56
+- **DxSale** https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=BSC
 - **Website / Socials:** https://albubux.com
 
 ## Contract Highlights
