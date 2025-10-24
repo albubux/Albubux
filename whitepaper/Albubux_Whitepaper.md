@@ -55,7 +55,7 @@ Utilities are delivered via companion contracts or off-chain services; the base 
 - **Payments:** selective merchant acceptance post-compliance; wallet UX bridges.
 
 **Roadmap (high level):**
-- **Post-presale:** DEX listing with locked LP; publish addresses and lock proofs; community governance for charity targets.  
+- **Post-presale:** CEX listing with locked LP; publish addresses and lock proofs; community governance for charity targets.  
 - **H1–H2:** pilots (promo codes), indie SDK, first integrations; quarterly KPI reporting; expand utilities.  
 - **Ongoing:** reduce fees as liquidity deepens (subject to community process).
 
@@ -94,8 +94,8 @@ Third-party brand names, if mentioned, are targets for exploration only unless e
 ## 8. Links
 
 - BscScan: https://bscscan.com/address/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9  
-- PinkSale: (insert live URL)  
-- Repository: https://github.com/albubux/albubux-token
+- DxSale : https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=56 
+- Repository: https://github.com/albubux/albubux
 
 ---
 
