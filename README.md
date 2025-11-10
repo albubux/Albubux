@@ -2,31 +2,31 @@
 
 # Albubux (BUBX)
 
-**Łańcuch:** Inteligentny łańcuszek BNB (BEP-20)  
-**Umowa:** `0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9`  
-**Nazwa / Symbol / Miejsca dziesiętne:** Albubux / BUBX / 9  
-**Całkowita podaż:** zobacz BscScan „Przeczytaj umowę”
+**Chain:** BNB Smart Chain (BEP-20)  
+**Agreement:** `0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9`  
+**Name / Symbol / Decimal places:** Albubux / BUBX / 9  
+**Total supply:** see BscScan "Read the contract"
 
-Albubux to prowadzony przez społeczność LiquidityGeneratorToken z refleksjami posiadaczy, automatyczną płynnością (LP → `0xmartwy`) oraz opcjonalną opłatę na rzecz organizacji charytatywnej (musi wynosić 0, jeśli adres organizacji charytatywnej to `0x0`).  
-Przedsprzedaż: **0%** opłaty. Cel polityki po umieszczeniu na liście: **~1% ogółem**, z **limit polityki publicznej ≤ 5%**.  
-*(Inteligentna umowa wymusza sztywny limit **≤ 25%** wszystkich opłat.)*
+Albubux is a community-run LiquidityGeneratorToken with holder reflections, automatic liquidity (LP → `0xdead`) and an optional charity fee (must be 0 if the charity's address is `0x0`).  
+Pre-order: **0%** fees. Policy Purpose Once Listed: **~1% total**, With **public policy limit ≤ 5%**.  
+*(The smart contract enforces a hard limit **≤ 25%** all fees.)*
 
-## Spinki do mankietów
-- **Oficjalna księga:** .https://github.com/albubux/Albubux/blob/main/whitepaper/Albubux_Whitepaper.md
-- **Inwestor, plik README:** ./whitepaper/Albubux_README.md
-- **BscScan (umowa):** 0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
-- **Rewizja** https://blocksafu.com/certificate/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
-- **Wyprzedaż Dx** https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=BSC
-- **Strona internetowa / portale społecznościowe:** https://albubux.com
+## Cufflinks
+- **Official book:** .https://github.com/albubux/Albubux/blob/main/whitepaper/Albubux_Whitepaper.md
+- **Investor, README file:** ./whitepaper/Albubux_README.md
+- **BscScan (contract):** 0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
+- **Revision** https://blocksafu.com/certificate/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
+- **Dx Sale** https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=BSC
+- **Website / social networking sites:** https://albubux.com
 
-## Najważniejsze informacje o kontrakcie
-- Pojedynczy, jednolity harmonogram opłat za transfer (bez oddzielnego kodu kupna/sprzedaży).
-- Opłaty (punkty bazowe powyżej 10 000): `_opłata podatkowa` (odbicia), `_opłata za płynność` (automatyczny LP), `_opłata charytatywna` (Do `_adres organizacji charytatywnej`).
-- **Twarda czapka:** `_podatek + _liq + _dobroczynność ≤ 25%` (konstruktor + ustawiacze).
-- **Zamień i upłynnij próg:** domyślnie ~0,1% podaży; właściciel może ustawić ale **≥ 0,05%**.
-- Narzędzia właściciela: `ustaw*Procent opłaty`, `setSwapBackSettings`, `wyklucz z opłaty`, `wyklucz z nagrody/włącz w nagrodzie`, `przeniesienie własności`, `zrzec się własności`.
+## The most important information about the contract
+- Single, unified transfer fee schedule (no separate buy/sell code).
+- Fees (basis points over 10,000): `_tax fee` (reflections), `_liquidity fee` (automatic LP), `_charity fee` (Down `_address of the charity`).
+- **Hard hat:** `_tax + _liq + _charity ≤ 25%` (constructor + setters).
+- **Convert and liquefy threshold:** by default ~0.1% of supply; the owner can set but **≥ 0.05%**.
+- Owner tools: `set*Fee percentage`, `setSwapBackSettings`, `exclude from fee`, `exclude from/include in reward`, `transfer of ownership`, `give up ownership`.
 
-## Sprawdź/Twórz notatki
-- **Kompilator:** Solidność `0.8.4` (dokładny), **Optymalizacja 200 uruchomień**.  
-- Jeśli BscScan pokazuje „Podobne dopasowanie”, jest to oczekiwane w przypadku tego szablonu.
-- Tokeny LP są wysyłane do `0xmartwy` na mocy umowy o dodaniu płynności.
+## Check/Create notes
+- **Compiler:** Solidity `0.8.4` (accurate), **Optimization of 200 runs**.  
+- If BscScan shows "Similar Match", this is expected for this template.
+- LP tokens are sent to `0xdead` under the liquidity provision agreement.
