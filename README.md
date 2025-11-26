@@ -18,6 +18,11 @@ Pre-order: **0%** fees. Policy Purpose Once Listed: **~1% total**, With **public
 - **Revision** https://blocksafu.com/certificate/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
 - **Dx Sale** https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=BSC
 - **Website / social networking sites:** https://albubux.com
+- **dexscreener** https://dexscreener.com/bsc/0x6d9c130a9d7ea7078d16ad35d6907f034487483c
+- **dextools**  https://www.dextools.io/app/en/bnb/pair-explorer/0x6d9C130A9D7ea7078D16aD35D6907f034487483C?t=1764121180815
+- **pancake** https://pancakeswap.finance/swap?outputCurrency=0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9&chainId=56&chain=bsc
+- **geckoterminal** https://www.geckoterminal.com/bsc/pools/0x6d9C130A9D7ea7078D16aD35D6907f034487483C
+- **ave** https://ave.ai/token/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9-bsc
 
 ## The most important information about the contract
 - Single, unified transfer fee schedule (no separate buy/sell code).
