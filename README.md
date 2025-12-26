@@ -7,8 +7,9 @@
 **Name / Symbol / Decimal places:** Albubux / BUBX / 9  
 **Total supply:** see BscScan "Read the contract"
 
-Albubux is a community-run LiquidityGeneratorToken with holder reflections, automatic liquidity (LP → `0xdead`) and an optional charity fee (must be 0 if the charity's address is `0x0`).  
-Pre-order: **0%** fees. Policy Purpose Once Listed: **~1% total**, With **public policy limit ≤ 5%**.  
+Albubux is a community-run LiquidityGeneratorToken on BNB Smart Chain (BEP-20).
+
+**Fees / Tax:** 2% liquidity fee (used to grow the liquidity pool). Policy Purpose Once Listed: **~2% total**, With **public policy limit ≤ 5%**.  
 *(The smart contract enforces a hard limit **≤ 25%** all fees.)*
 
 ## Cufflinks
