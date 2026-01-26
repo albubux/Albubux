@@ -9,30 +9,118 @@
 
 Albubux is a community-run LiquidityGeneratorToken on BNB Smart Chain (BEP-20).
 
-**Fees / Tax:** 2% liquidity fee (used to grow the liquidity pool). Policy Purpose Once Listed: **~2% total**, With **public policy limit ≤ 5%**.  
-*(The smart contract enforces a hard limit **≤ 25%** all fees.)*
+**Fees / Tax:** 0% liquidity fee (used to grow the liquidity pool). 
 
 ## Cufflinks
 - **Official book:** .https://github.com/albubux/Albubux/blob/main/whitepaper/Albubux_Whitepaper.md
 - **Investor, README file:** ./whitepaper/Albubux_README.md
 - **BscScan (contract):** 0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
-- **Revision** https://blocksafu.com/certificate/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
-- **Dx Sale** https://www.dx.app/dxsale/view?address=0x3aea24db9214663b4d40E8f2557Fc3B5bF96cBbb&chain=BSC
+- **AUDIT** https://blocksafu.com/certificate/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9
+- **KYC** https://www.coinscope.co/coin/bubx/kyc
 - **Website / social networking sites:** https://albubux.com
-- **dexscreener** https://dexscreener.com/bsc/0x6d9c130a9d7ea7078d16ad35d6907f034487483c
-- **dextools**  https://www.dextools.io/app/en/bnb/pair-explorer/0x6d9C130A9D7ea7078D16aD35D6907f034487483C?t=1764121180815
 - **pancake** https://pancakeswap.finance/swap?outputCurrency=0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9&chainId=56&chain=bsc
-- **geckoterminal** https://www.geckoterminal.com/bsc/pools/0x6d9C130A9D7ea7078D16aD35D6907f034487483C
-- **ave** https://ave.ai/token/0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9-bsc
+- 
 
 ## The most important information about the contract
-- Single, unified transfer fee schedule (no separate buy/sell code).
-- Fees (basis points over 10,000): `_tax fee` (reflections), `_liquidity fee` (automatic LP), `_charity fee` (Down `_address of the charity`).
-- **Hard hat:** `_tax + _liq + _charity ≤ 25%` (constructor + setters).
-- **Convert and liquefy threshold:** by default ~0.1% of supply; the owner can set but **≥ 0.05%**.
-- Owner tools: `set*Fee percentage`, `setSwapBackSettings`, `exclude from fee`, `exclude from/include in reward`, `transfer of ownership`, `give up ownership`.
+# Albubux (BUBX)
 
-## Check/Create notes
-- **Compiler:** Solidity `0.8.4` (accurate), **Optimization of 200 runs**.  
-- If BscScan shows "Similar Match", this is expected for this template.
-- LP tokens are sent to `0xdead` under the liquidity provision agreement.
+Albubux is a Web3 utility-driven project built on BNB Chain, designed to grow through real usage, partnerships, and long-term infrastructure — not artificial token mechanics.
+
+The project follows a clear, security-first approach:
+KYC+AUDIT 
+
+
+---
+
+## Core Principles
+
+- **Security first** – no rushed migrations or risky changes
+- **Utility over hype** – real use cases instead of temporary mechanics
+- **Scalability** – architecture prepared for future expansion
+- **Transparency** – clear roadmap and conscious design decisions
+
+---
+
+## Token Overview
+
+- **Symbol:** BUBX  
+- **Chain:** BNB Chain (BEP-20)  
+- **Transaction tax:** 0% (intentional)  
+- **Main trading pair:** WBNB  
+- **Liquidity:** Locked  2027 r
+- **Staking:** Active and functional  https://albubux-stake.com
+
+The 0% tax model is a strategic decision to:
+- allow free and healthy market trading
+- simplify integrations with partners
+- reduce friction for new users
+- move value creation outside of the contract layer
+
+---
+
+## Staking — A Core Pillar
+
+Staking is a fundamental part of the Albubux ecosystem.
+
+It is used to:
+- define user levels and permissions
+- unlock access to utilities
+- support partner integrations
+- build long-term engagement
+
+Staking is already live and will be further leveraged by the MVP layer.
+
+---
+
+## MVP Utility Layer (In Development)
+
+Albubux is building a **hybrid MVP utility layer** that strengthens the existing token without modifying its smart contract.
+
+### MVP Goals:
+- make the token actively usable
+- enable partner and game integrations
+- create real demand beyond speculation
+
+### Architecture:
+- **On-chain:** read-only access to balances and staking data
+- **Off-chain:** rule-based logic, rewards, access control, partner APIs
+
+This approach allows fast iteration, low risk, and future AI/ML expansion.
+
+---
+
+## Partnerships & Platform Vision
+
+The MVP layer enables:
+- integrations with external games and platforms
+- token-based access to in-game items, add-ons, and features
+- future development of Albubux’s own gaming platform
+
+Partner discussions are ongoing.  
+The MVP layer is the key step to activate them.
+
+---
+
+## Future Expansion
+
+The system is designed to support:
+- advanced reward logic
+- AI/ML-driven mechanics
+- additional platform features
+- a future upgraded token as an extension of the ecosystem
+
+Any future token will **enhance**, not replace, the current Albubux token.
+
+---
+
+## Roadmap Philosophy
+
+Albubux follows a structured approach:
+1. Stabilize the existing token
+2. Deliver real utility via MVP
+3. Secure partnerships
+4. Scale responsibly
+
+---
+
+Albubux is built to last.
