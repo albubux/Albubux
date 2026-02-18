@@ -26,7 +26,7 @@ Albubux is a community-run LiquidityGeneratorToken on BNB Smart Chain (BEP-20).
 
 Albubux is a Web3 utility-driven project built on BNB Chain, designed to grow through real usage, partnerships, and long-term infrastructure — not artificial token mechanics.
 
-The project follows a clear, security-first approach:
+The project follows  a clear, security-first approach:
 KYC+AUDIT 
 
 
