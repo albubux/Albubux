@@ -29,7 +29,15 @@ Albubux (BUBX) is a utility-focused token built on BNB Chain, featuring staking 
 
 The project follows  a clear, security-first approach:
 KYC+AUDIT 
+Albubux LLC is building a Web3 gaming ecosystem centered around an AI-powered game generator. The project already includes the BUBX token, MVP foundations and staking components, which create the first utility layer of the ecosystem.
 
+Our main goal is to complete the Albubux AI Game Generator — a platform where users will be able to generate playable browser games from simple text prompts. We want to make game creation faster, easier and more accessible for creators, indie developers, communities and non-technical users.
+
+The generator is the core product. Blockchain payments, the Albubux token and future utility layers are designed to support real platform usage, including game generation, premium access, rewards and ecosystem growth.
+
+We are solving a real problem: game creation is still expensive, slow and difficult for small creators. Albubux aims to simplify this process by combining AI-assisted game creation with Web3 payments and token utility.
+
+Our long-term vision is to build a generator that can compete with the best tools on the market by creating playable games with strong visual impact, immersive gameplay and cinematic-quality experiences. To achieve this, we are looking for support to improve the technology, gameplay logic, asset system, testing, Web3 payment integration and final product quality.
 
 ---
 
