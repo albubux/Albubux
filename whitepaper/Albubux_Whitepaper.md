@@ -14,9 +14,7 @@ Albubux is a community-driven token for transparent tokenomics and real-world ut
 - **Automatic liquidity** via swap-and-liquify. LP tokens are sent to **`0xdead`**.
 - **Optional charity fee** forwarded to a configured `_charityAddress`. If the charity address is `0x0`, the effective charity fee is 0.
 
-**Presale/Fair-launch:** fees at **0%**.  
-**Post-listing policy:** small total fee (initial target ~**1%**), with a **public policy cap <= 5%**.  
-**On-chain limit:** sum of fees cannot exceed **25%**.
+
 
 ---
 
@@ -27,7 +25,7 @@ Albubux is a community-driven token for transparent tokenomics and real-world ut
   - `_taxFee` (holder reflections),
   - `_liquidityFee` (accumulated and auto-added to liquidity; half swap to BNB, half pair; LP sent to `0xdead`),
   - `_charityFee` (forwarded to `_charityAddress`; if `_charityAddress == 0x0`, calculation yields 0).
-- **Hard cap on total fees:** `_taxFee + _liquidityFee + _charityFee <= 25%` (constructor and setters enforce).
+- **Hard cap on total fees:** `_taxFee + _liquidityFee  (constructor and setters enforce).
 - **Swap-and-liquify threshold:** initialized at about **0.1%** of total supply; owner can adjust via `setSwapBackSettings(amount)` but **not below 0.05%** of supply.
 - **Ownership & exclusions:** standard `Ownable`; `excludeFromFee`, `excludeFromReward`, `includeInReward`.
 - **Router/Pair:** router is provided at deploy; pair is created against `WETH()` (WBNB on BSC).
