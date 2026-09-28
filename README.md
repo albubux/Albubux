@@ -19,7 +19,7 @@ Albubux is a community-run LiquidityGeneratorToken on BNB Smart Chain (BEP-20).
 - **KYC** https://www.coinscope.co/coin/bubx/kyc
 - **Website / social networking sites:** https://albubux.com
 - **pancake** https://pancakeswap.finance/swap?outputCurrency=0x4843588e66700eD5E2C4F8BC6f9b61E686d9cDa9&chainId=56&chain=bsc
-- **staking** https://albubux-stake.com
+- 
 - **game platform** https://albubux-play.com
 
 ## The most important information about the contract
@@ -57,7 +57,7 @@ Our long-term vision is to build a generator that can compete with the best tool
 - **Transaction tax:** 0% (intentional)  
 - **Main trading pair:** WBNB  
 - **Liquidity:** Locked  2027 r and burn
-- **Staking:** Active and functional  https://albubux-stake.com
+
 
 The 0% tax model is a strategic decision to:
 - allow free and healthy market trading
